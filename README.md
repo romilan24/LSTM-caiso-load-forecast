@@ -3,7 +3,7 @@ A Deep Learning electric Demand forecast using Long Short-Term Memory (LSTM) dee
 
 ## How to use
 - download the data.csv and py scripts; save to local path
-- update path (line 69) to local path where data.csv located
+- update path (line 92) to local path where data.csv located
 - run keras_lstm.py script
 - observe results similar to:
 

@@ -202,7 +202,7 @@ def plot_results(y_pred_actual, y_test_inv, history, model_name):
     ax[0].set_ylabel('Price')
 
     # MAPE chart
-    ax[1].plot(mape, label='MAPE')  # Plot MAPE by hour
+    ax[1].plot(mape[:1000], label='MAPE')  # Plot MAPE by hour
     ax[1].set_ylim(bottom=0)  # Start y-axis at zero
     ax[1].set_title(f'MAPE by Hour ({model_name})')
     ax[1].set_xlabel('Hour')
